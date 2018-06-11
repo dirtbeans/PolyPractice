@@ -48,7 +48,9 @@
     <Compile Include="Classes\PostalService1st.cs" />
     <Compile Include="Classes\PostalService2nd.cs" />
     <Compile Include="Classes\PostalService3rd.cs" />
-    <Compile Include="Classes\SPU.cs" />
+    <Compile Include="Classes\SPU4Day.cs" />
+    <Compile Include="Classes\SPU2Day.cs" />
+    <Compile Include="Classes\SPUNextDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

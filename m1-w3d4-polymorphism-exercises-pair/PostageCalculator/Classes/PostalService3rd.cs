@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PostageCalculator.Classes
 {
-    class PostalService3rd : IDeliveryDriver
+    public class PostalService3rd : IDeliveryDriver
     {
         public double CalculateRate(int distance, double weight)
         {
@@ -36,6 +36,11 @@ namespace PostageCalculator.Classes
                 rate = .0170 * distance;
             }
             return rate;
+        }
+
+        public string TypeOfDelivery
+        {
+            get { return "Postal Service (3rd Class)"; }
         }
     }
 }
